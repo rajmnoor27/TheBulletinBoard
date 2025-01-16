@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            The Bulletin Board
+        </title>
+        <script src = "script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>   
+        <div class="header">
+            <h1 class="title">The Bulletin Board</h1>
+            <br>
+            <input type="text" id="keyword" placeholder="Enter a keyword">
+            <button onclick="searchArticles()">Search Articles</button>
+        </div>
+        <div class="container">
+            <h2 id="types">New York Times Articles</h2>
+            <h2 id="types">Bing News Articles</h2>
+            <h2 id="types">NewsAPI Articles</h2>    
+        </div>
+            <div class="container">
+            <div class="column" id="printNYT"></div>
+            <div class="column" id="printBing"></div>
+            <div class="column" id="printNewsApi"></div>
+        </div>
+    </body>
+</html>

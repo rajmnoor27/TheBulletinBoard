@@ -1,0 +1,142 @@
+
+body {
+    background-color: #6ec1e4; 
+    color: #36454f;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+#types{
+    text-decoration-line: underline;
+    background-color: #b0c4de;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.header{
+    text-align: center;
+    background-color: #4682B4;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.title{
+    background-color: #b0c4de;
+    display: inline-block;
+    padding: 10px 95px 10px 95px;
+    border-radius: 5px;
+    font-size: 45px;
+}
+#keyword {
+    width: 400px; 
+    height: 40px; 
+    font-size: 18px; 
+    padding: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    color: #333; 
+}
+
+#keyword::placeholder {
+    color: #888; 
+}
+
+/* Styling for the button */
+button {
+    height: 50px; 
+    font-size: 18px;
+    padding: 0 20px; 
+    background-color: #333; 
+    color: #fff; 
+    border: 2px solid #555; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #444; 
+    border-color: #666; 
+}
+button {
+    height: 60px;
+    font-size: 18px; 
+    padding: 0 20px; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+.smallbutton{
+    background-color: #b0c4de;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 25px 15px 10px 15px;
+    color: #444;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+    text-align: center;
+}
+.column {
+    padding: 20px;
+    border: 1px solid #424242;
+    text-align: center;
+    gap: 20px;
+    background-color: #4682B4;
+}
+
+.sticky-note {
+    background-color: #FFF9C4;
+    width: 90%; 
+    max-width: 600px; 
+    margin: 10px auto; 
+    color: #333;
+    text-align: center;
+    padding: 50px 5px 10px;
+    position: relative;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: none; 
+}
+
+.sticky-note:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.sticky-note h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+.sticky-note p {
+    font-size: 0.9em;
+    margin: 0.5em 0;
+}
+
+.pin {
+    position: absolute;
+    top: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 30px; 
+    height: auto; 
+}
+
+#articles-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.button{
+    padding: 5px 10px;
+    background-color: #800000;
+    color:#FFD700;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
